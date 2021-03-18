@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static int score;
     public static GameObject[] pickups;
     public static int count;
-    public TMP_Text time;
+    /*public TMP_Text time;*/
 
     public TMP_Text scoretxt;
 
@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     {
         startTime += Time.deltaTime;
         scoretxt.text = ":" + score;
-        time.text = startTime.ToString("F0");
+        /*time.text = startTime.ToString("F0");*/
     }
 
      public void RespawnPlayer()

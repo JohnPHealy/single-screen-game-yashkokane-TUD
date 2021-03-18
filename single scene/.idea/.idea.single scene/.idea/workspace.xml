@@ -12,19 +12,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/bonus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/shooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/bonus.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/pickups.cs" />
       <option value="$PROJECT_DIR$/Assets/exit.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/exit.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/playermovement.cs" />
       <option value="$PROJECT_DIR$/Assets/projectilemovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/shooting.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/playermovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/projectilemovement.cs" />
     </changedPaths>
   </component>
@@ -75,6 +75,7 @@
       <workItem from="1615909582285" duration="10777000" />
       <workItem from="1615981739168" duration="127000" />
       <workItem from="1615981921366" duration="5203000" />
+      <workItem from="1616029862349" duration="3430000" />
     </task>
     <servers />
   </component>

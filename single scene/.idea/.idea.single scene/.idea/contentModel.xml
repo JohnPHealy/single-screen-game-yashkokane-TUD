@@ -2,10 +2,41 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\yashk\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\yashk\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_single scene.-1329086409.00" t="ExcludeRecursive" />
-    <e p="E:\Sem-2\Git\2D-single-screen\single scene" t="IncludeRecursive">
+    <e p="C:\Users\yashk\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_single scene.1699918480.00" t="ExcludeRecursive" />
+    <e p="E:\Sem-2\Git\single-screen-game-yashkokane-TUD\single scene" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Game Jam Template" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="OpenSans" t="Include">
+              <e p="License!.txt" t="Include" />
+            </e>
+          </e>
+          <e p="GameJamTemplateReadMe.txt" t="Include" />
+          <e p="README.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="FlexibleUI" t="Include">
+              <e p="FlexibleUI.cs" t="Include" />
+              <e p="FlexibleUIButton.cs" t="Include" />
+              <e p="FlexibleUIData.cs" t="Include" />
+              <e p="FlexibleUIImage.cs" t="Include" />
+              <e p="FlexibleUISlider.cs" t="Include" />
+              <e p="FlexibleUIText.cs" t="Include" />
+            </e>
+            <e p="Menu" t="Include">
+              <e p="DontDestroy.cs" t="Include" />
+              <e p="EventSystemChecker.cs" t="Include" />
+              <e p="MenuObject.cs" t="Include" />
+              <e p="MenuSettings.cs" t="Include" />
+              <e p="Pause.cs" t="Include" />
+              <e p="PlayMusic.cs" t="Include" />
+              <e p="QuitApplication.cs" t="Include" />
+              <e p="SetAudioLevels.cs" t="Include" />
+              <e p="ShowPanels.cs" t="Include" />
+              <e p="StartOptions.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="bonus.cs" t="Include" />
           <e p="exit.cs" t="Include" />

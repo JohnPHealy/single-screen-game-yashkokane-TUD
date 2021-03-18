@@ -9,7 +9,7 @@ public class playermovement : MonoBehaviour
     [SerializeField] private float moveForce, maxSpeed, jumpForce;
     [SerializeField] private Collider2D groundCheck;
     [SerializeField] private LayerMask groundLayers;
-
+    [SerializeField] private GameManager _Gm;
     private float moveDir;
     private Rigidbody2D myRB;
     private bool canJump;
@@ -84,6 +84,17 @@ public class playermovement : MonoBehaviour
         if (context.canceled && myRB.velocity.y > 0)
         {
             myRB.velocity = new Vector2(myRB.velocity.x, 0f);
+        }
+    }
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Bullet")
+        {
+            
+            Debug.Log(("hit"));
+            _Gm.RespawnPlayer();
+            /*Destroy(gameObject);*/
         }
     }
 }
