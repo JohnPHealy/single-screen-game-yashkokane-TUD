@@ -5,14 +5,17 @@ using UnityEngine;
 
 public class shooting : MonoBehaviour
 {
+    [SerializeField] private float fireRate;
     [SerializeField] GameObject Bullet;
+    private SpriteRenderer mySprite;
     
-        float fireRate;
+        
         float nextFire;
     
         void Start()
         {
-            fireRate = 1f;
+            mySprite = transform.GetComponentInChildren<SpriteRenderer>();
+            
             nextFire = Time.time;
         }
     
@@ -21,11 +24,16 @@ public class shooting : MonoBehaviour
             CheckIfTimeToFire();
         }
     
+        // ReSharper disable Unity.PerformanceAnalysis
         void CheckIfTimeToFire()
         {
             if(Time.time > nextFire)
             {
-                Instantiate(Bullet, transform.position, Quaternion.identity);
+                var bullet = Instantiate(Bullet, transform.position, Quaternion.identity);
+                if (mySprite.flipX)
+                {
+                    bullet.GetComponent<projectilemovement>().projectileSpeed *= -1;
+                }
                 nextFire = Time.time + fireRate;
             }
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.PlayerLoop;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -41,7 +42,6 @@ public class GameManager : MonoBehaviour
      public void RespawnPlayer()
     {
         player.transform.position = StartPos;
-        score = 0;
     }
 
      public void PauseGame()
@@ -53,6 +53,11 @@ public class GameManager : MonoBehaviour
      public void UnPauseGame()
      {
          Time.timeScale = 1;
+     }
+
+     public void RestartGame()
+     {
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
      }
      
      public void Quit()

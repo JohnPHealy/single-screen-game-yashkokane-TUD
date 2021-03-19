@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class projectilemovement : MonoBehaviour
 {
-    [SerializeField] private float projectileSpeed;
+    public float projectileSpeed;
     private static GameObject enemy;
     
     // Start is called before the first frame update
