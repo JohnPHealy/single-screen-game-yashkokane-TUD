@@ -23,9 +23,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/exit.cs" />
       <option value="$PROJECT_DIR$/Assets/projectilemovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/shooting.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/playermovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/playermovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/projectilemovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/playBtn.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pc2iUOBz5ri1gvLeh2F09jdS55" />
@@ -75,7 +76,10 @@
       <workItem from="1615909582285" duration="10777000" />
       <workItem from="1615981739168" duration="127000" />
       <workItem from="1615981921366" duration="5203000" />
-      <workItem from="1616029862349" duration="3430000" />
+      <workItem from="1616029862349" duration="3516000" />
+      <workItem from="1616117062336" duration="2210000" />
+      <workItem from="1616121114966" duration="1000" />
+      <workItem from="1616121440533" duration="675000" />
     </task>
     <servers />
   </component>

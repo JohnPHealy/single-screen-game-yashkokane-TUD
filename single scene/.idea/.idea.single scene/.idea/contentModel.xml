@@ -42,6 +42,7 @@
           <e p="exit.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="pickups.cs" t="Include" />
+          <e p="playBtn.cs" t="Include" />
           <e p="playermovement.cs" t="Include" />
           <e p="projectilemovement.cs" t="Include" />
           <e p="shooting.cs" t="Include" />

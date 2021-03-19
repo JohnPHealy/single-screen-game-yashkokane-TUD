@@ -18,25 +18,7 @@ public class projectilemovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (enemy.transform.rotation.y == 0)
-        {
             transform.Translate(Vector2.right * projectileSpeed * Time.deltaTime);
-        }
-        else
-        {
-
-            transform.Translate(Vector2.left * projectileSpeed * Time.deltaTime);
-        }
-        
     }
-    /*private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "player")
-        {
-            Debug.Log("hit");
-            /*Destroy(GameObject.FindWithTag("player"));
-            _Gm.RespawnPlayer();#1#
-        }
-    }*/
    
 }

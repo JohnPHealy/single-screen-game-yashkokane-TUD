@@ -92,7 +92,6 @@ public class playermovement : MonoBehaviour
         if (collision.gameObject.tag == "Bullet")
         {
             
-            Debug.Log(("hit"));
             _Gm.RespawnPlayer();
             /*Destroy(gameObject);*/
         }
